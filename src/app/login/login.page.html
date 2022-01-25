@@ -1,0 +1,25 @@
+<ion-header no-border>
+  <div class="login-header ion-padding">
+  </div>
+</ion-header>
+<ion-content>
+<div class="center">
+  <div heading-column-lr>
+
+   <h1> <ion-icon name="car"></ion-icon> Let's visit MOROCCO !</h1>
+  </div>
+  
+  <ion-item transparent>
+    <img icon-small src="../../assets/icon/email.jpg"/>
+    <ion-input required="true" [(ngModel)]="email" placeholder="veuillez saisir votre email" type="email" ></ion-input>
+  </ion-item>
+  <ion-item transparent>
+    <img icon-small src="../../assets/icon/lock.jpg"/>
+    <ion-input required="true" [(ngModel)]="password" placeholder="veuillez saisir votre mot de passe" type="password" ></ion-input>
+  </ion-item>
+<div linespace></div>
+  <ion-button color="primary" class="ion-button-class" shape="round" fill="solid" size="large" expand="block"
+(click)="login()">Login</ion-button>
+<ion-label class="ion-text-center">j'ai pas de compte !<span class="link-button" (click)="register()">S'inscrire </span></ion-label>
+</div>
+</ion-content>

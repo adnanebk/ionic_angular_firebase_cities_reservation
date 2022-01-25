@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar > 
+    <ion-title>mes reservations</ion-title>
+    <ion-buttons slot="start">
+     
+      <ion-back-button defaultHref="home"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-content [fullscreen]="true" >
+      <ion-card class="card" *ngFor = "let reservation of reservations ">
+ <h4><ion-icon name="location-outline"></ion-icon> ville de depart : <span >{{ reservation.ville_depart }} </span></h4>
+      <h4> <ion-icon name="location-outline"></ion-icon> ville de destination : <span> {{ reservation.ville_destination }} </span></h4>
+      <h4> <ion-icon name="people-outline"></ion-icon> nombre de voyageurs : <span > {{ reservation.nbr }} </span></h4>
+     <h4> <ion-icon name="calendar-outline"></ion-icon> date de reseravation : <span> {{reservation.reservationDate}}</span></h4>
+    </ion-card>
+
+</ion-content>

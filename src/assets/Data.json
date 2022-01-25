@@ -1,0 +1,40 @@
+{
+  "Villes" : [
+    {
+      "name": "Agadir",
+      "description" : "Agadir, ville située sur la côte atlantique sud du Maroc \n dans les contreforts de l'Anti-Atlas, est la capitale de la province\n d'Agadir Ida-Outanane. Cette station balnéaire est réputée pour \n ses parcours de golf, sa large plage en croissant et sa promenade en\n  front de mer bordée de cafés, de restaurants et de bars. Perchée sur \n  une colline, la kasbah d'Agadir a été détruite lors d'un tremblement \n  de terre en 1960, \nmais ses murs d'origine sont toujours debout.",
+      "image":"agadir.jpg"
+    },
+    {
+      "name": "Rabat",
+      "description": "Rabat, la capitale du Maroc, est bâtie sur les rives du fleuve Bouregreg et de l'océan Atlantique.\n Elle est connue pour ses sites d'intérêt,\n  qui illustrent tant le patrimoine\n   islamique que colonial français, notamment la kasbah des Oudayas.\n    Ce fort royal de l'époque berbère est entouré par des jardins  ",
+      "image":"rabat.jpg"
+    }
+  ,
+    {
+      "name": "Casablanca",
+      "description": "Casablanca est une ville portuaire et un pôle \n commercial situé à l'ouest du Maroc, face à l'océan Atlantique.\n  L'héritage colonial français de la ville se reflète dans l'architecture\n   mauresque du centre-ville, alliant style mauresque et Art déco européen. \n   Partiellement érigée sur l'eau, l'immense mosquée Hassan II, achevée en 1993,\n    comprend un minaret de 210 \n mètres de haut avec des lasers orientés vers La Mecque",
+      "image": "casablanca.jpeg"
+    }
+  ,
+    {
+      "name": "Tanger",
+      "description": "Port marocain situé dans le détroit de Gibraltar, \n Tanger constitue depuis l'époque des Phéniciens un point \n stratégique entre l 'Afrique et l'Europe. À flanc de coteau,\n  sa médina aux bâtiments blanchis à la chaux comporte le Dar el\n   makhzen, un ancien palais de sultans devenu aujourd'hui un musée\n    d'objets anciens du Maroc. Occupant un ancien consulat de style \n    maure datant de 1821, le musée de la légation américaine, dans la \n    médina également, \n retrace l'histoire des premières relations diplomatiques",
+      "image": "tanger.jpg"
+    },
+    {
+      "name": "merzouga",
+      "description": "Merzouga est une petite ville marocaine située \n dans le désert du Sahara, près de la frontière algérienne. \n Merzouga s'ouvre sur l'erg Chebbi, une immense étendue de dunes \n de sable au nord de la ville. À l'ouest se trouve Dayet Srji,\n un lac salé saisonnier, souvent sec en été.\n Lorsqu'il se remplit à nouveau, il attire une grande variété \n d'oiseaux migrateurs et du désert, notamment des fauvettes, \n des engoulevents et, parfois, des flamants roses.",
+      "image": "merzouga.jpg"
+    },
+    {
+      "name": "Chefchaouen",
+      "description": "Chefchaouen est une petite ville de montagne du \n nord-est du Maroc au cadre superbe, pleine de charme \n et d’authenticité et à l’écart des grands centres touristiques.\n Au détour de ses ruelles au décor méditerranéen de maisons blanchies \n à la chaux agrémentées de bleu de smalt, vous découvrirez des \n monuments historiques comme la grande mosquée 'El Masjid El Adamaa'. \n Et le soir, en grimpant sur les hauteurs de l’hôtel Atlas, \n vous pourrez admirer un magnifique coucher de soleil sur la ville et la vallée.",
+      "image": "chefchaouen.jpg"
+    }
+
+    
+
+
+  ]
+}

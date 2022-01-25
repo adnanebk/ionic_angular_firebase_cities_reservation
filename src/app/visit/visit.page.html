@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar >
+    
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>villes</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-card *ngFor="let ville of marocVilles">
+    <ion-card-header>
+      <ion-card-subtitle>{{ville.name}}</ion-card-subtitle>
+      <ion-card-title>{{ville.description}}</ion-card-title>
+      <img src="../../assets/img/{{ville.image}}" id ="img"/>
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-button routerLink="/ville/{{ville.name}}" color="primary">decouvrire plus</ion-button>
+      <ion-button routerLink="/reservation/{{ville.name}}" color="primary" >Reserver</ion-button>
+
+    </ion-card-content>
+  </ion-card>
+
+
+
+
+
+</ion-content>
+

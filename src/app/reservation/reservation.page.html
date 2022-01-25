@@ -1,0 +1,36 @@
+
+<ion-header>
+  <ion-toolbar >
+    <ion-title>reservation</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="visit"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-item>
+    <ion-label>ville de depart</ion-label>
+    <ion-select required="true" placeholder="ville de depart" [(ngModel)]= "this.reservation.ville_depart" >
+      <ion-select-option *ngFor="let ville of villes" value="{{ville}}">{{ville}}</ion-select-option>
+    </ion-select>
+</ion-item>
+<ion-item>
+  <ion-label>ville de destination </ion-label>
+  <ion-select required="true" placeholder="ville de destination" [(ngModel)]= "this.reservation.ville_destination">
+    <ion-select-option *ngFor="let ville of villes"  value="{{ville}}">{{ville}}</ion-select-option>
+  </ion-select>
+</ion-item>
+<ion-item>
+  <ion-label>nombre de passagers</ion-label>
+<ion-input required="true" type="number" placeholder="nombre de personnes" [(ngModel)]= "this.reservation.nbr"></ion-input>
+</ion-item>
+
+  <ion-item>
+    <ion-label>date de reservation</ion-label>
+    <ion-input required="true" type="date"  [(ngModel)]= "this.reservation.reservationDate"></ion-input>
+  </ion-item>
+
+
+<ion-button (click)="reserver()" expand="block">Reserver</ion-button>
+</ion-content>
+

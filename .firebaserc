@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "ionicauth-cee63": {
+      "hosting": {
+        "app": [
+          "ionicauth-cee63"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "ionicauth-cee63"
+  }
+}

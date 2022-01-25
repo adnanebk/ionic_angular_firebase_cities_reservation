@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar >
+    <ion-title>profile</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="visit"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content [fullscreen]="true" >
+
+      <ion-card >
+        
+       <h4><ion-icon name="person-outline"></ion-icon> {{ profil.nom }} </h4>
+      <h4> <ion-icon name="mail-outline"></ion-icon> {{ profil.email }} </h4>
+      <h4> <ion-icon name="call-outline"></ion-icon> +212{{ profil.telephone }} </h4>
+      <h4> <ion-icon name="card-outline"></ion-icon> {{ profil.cin }} </h4>
+      <h4> <ion-icon name="location-outline"></ion-icon> {{ profil.ville }} </h4>
+     </ion-card>
+</ion-content>
+

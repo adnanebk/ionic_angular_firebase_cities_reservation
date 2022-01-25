@@ -1,0 +1,50 @@
+<script src="register.page.ts"></script>
+<ion-header no-border>
+  <div class="login-header ion-padding">
+
+  </div>
+</ion-header>
+
+<ion-content>
+<div class="center">
+  <div heading-column-lr>
+    <h1> <ion-icon name="car"></ion-icon> Let's visit MOROCCO !</h1>
+  </div>
+  <ion-item transparent>
+    <img icon-small src="../../assets/icon/user.jpg"/>
+    <ion-input  required="true" [(ngModel)]="nom" placeholder="veuillez saisir votre nom complet" type="text"></ion-input>
+  </ion-item>
+  <ion-item transparent>
+    <img icon-small src="../../assets/icon/email.jpg"/>
+    <ion-input required="true" [(ngModel)]="username" placeholder="veuillez saisir votre email" type="text"></ion-input>
+  </ion-item>
+  <ion-item transparent>
+    <img icon-small src="../../assets/icon/tel.jpg"/>
+    <ion-input required="true" [(ngModel)]="telephone" placeholder="veuillez saisir votre tel" type="tel"></ion-input>
+  </ion-item>
+  <ion-item transparent>
+    <img icon-small src="../../assets/icon/city.jpg"/>
+    <ion-select required="true" placeholder=" ville de destination" [(ngModel)]="ville">
+      <ion-select-option >oujda</ion-select-option>
+      <ion-select-option >rabat</ion-select-option>
+      <ion-select-option >casablanca</ion-select-option>
+      <ion-select-option >agadir</ion-select-option>
+      <ion-select-option >merzouga</ion-select-option>
+      <ion-select-option >tanger</ion-select-option>
+      <ion-select-option >chefchaouen</ion-select-option>
+    </ion-select>
+  </ion-item>
+  <ion-item transparent>
+    <img icon-small src="../../assets/icon/cin.jpg"/>
+    <ion-input required="true" [(ngModel)]="cin" placeholder="veuillez saisir votre cin" type="text"></ion-input>
+  </ion-item>
+  <ion-item transparent>
+    <img icon-small src="../../assets/icon/lock.jpg"/>
+    <ion-input required="true" [(ngModel)]="password" placeholder="veuillez saisir votre mot de passe" type="password"></ion-input>
+  </ion-item>
+<div linespace></div>
+  <ion-button color="primary" class="ion-button-class" shape="round" fill="solid" size="large" expand="block"
+(click)="register()">s'inscrire</ion-button>
+<ion-label class="ion-text-center">j'ai deja un compte <span class="link-button" (click)="login()"> se connecter </span></ion-label>
+</div>
+</ion-content>
